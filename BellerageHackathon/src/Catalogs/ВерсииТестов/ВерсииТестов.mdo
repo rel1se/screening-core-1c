@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a97309f1-be45-43be-bf9a-9f409d2eadc4">
+  <producedTypes>
+    <objectType typeId="fe594466-6416-44b7-b4da-60852b6146d0" valueTypeId="812555b9-f4d7-4ae7-8647-777e58a6e88e"/>
+    <refType typeId="15287008-622f-480e-9040-5704ee2c3f79" valueTypeId="4684ad51-6f34-46e9-a261-c6e19b2c5cf2"/>
+    <selectionType typeId="001959d0-d835-4878-8c19-eba63ab17cc4" valueTypeId="6f7d5f93-dfc9-4452-b7e2-355d42e12207"/>
+    <listType typeId="3ddc40d6-6e72-4151-ac92-77e65cf7e26b" valueTypeId="8ecdd80b-8f21-4697-b1f7-167131591e48"/>
+    <managerType typeId="09ed9c8c-ab50-4606-bccb-5869d867d4cc" valueTypeId="9f08a296-0110-4625-92b5-20e5606e51b7"/>
+  </producedTypes>
+  <name>ВерсииТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииТестов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВерсииТестов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Тесты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d17e3cae-e7c4-4b93-a025-15d46f1b4a4c">
+    <name>ИдентификаторВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор версии</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="78eafa16-961c-4d13-8942-9255b393612b">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="b1f25cb1-2701-4cf9-bf6c-ff45cd7b21d7">
+    <name>ПредыдущаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущая версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+  </attributes>
+  <attributes uuid="8472ca86-bceb-45fd-9310-4b2f3e893fad">
+    <name>СтатусВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус версии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВерсийТестов</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="8c8b12d0-5d2c-4500-9dc6-30269593d7ed">
+    <name>НаименованиеТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="3bafb5af-ced8-4957-af45-815e6aba2070">
+    <name>ОписаниеТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="c90e7024-eeb0-4cf5-bde6-a384d6295fbe">
+    <name>ОграничиватьВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничивать время</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="fb0a5bac-627c-483d-abd9-3984acc4c10b">
+    <name>ЛимитВремениМинуты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит времени, минуты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="d4bbe670-45c7-429a-a114-5763cee89841">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="1c810cb0-9988-4927-8b0d-16a498728e33">
+    <name>ПроходнойБаллПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проходной балл, процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="66e28a3b-2d52-4923-845b-6deda8440cc2">
+    <name>ПеремешиватьВопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемешивать вопросы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="aabc7a78-08ac-4b97-bdbc-51d93c936976">
+    <name>МаксимальноеКоличествоБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="9885aa5b-d414-4f76-a55d-5a5e37d62e82">
+    <name>ВерсияСхемыОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия схемы обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="6a472bd0-3521-4402-8469-4b2d738ac862">
+    <name>ХэшСодержимого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш содержимого</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="6e510174-f750-4ddb-9abb-0906a75f7d68">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="7e5e77da-7e08-4aaf-931e-1c37c0163936">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="1c8ffe9c-98cd-4d6c-be94-f4c1e2927d3b">
+    <name>ДатаПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата публикации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="c62b1486-ebdc-4954-9d06-5aae00736495">
+    <name>ДокументПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ публикации</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПубликацияТеста</types>
+    </type>
+  </attributes>
+  <defaultObjectForm>Catalog.ВерсииТестов.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="daa4ed2e-40bf-45ae-8469-79724a2c4ccd"><name>ФормаЭлемента</name><synonym><key>ru</key><value>Редактор версии теста</value></synonym><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:Catalog>

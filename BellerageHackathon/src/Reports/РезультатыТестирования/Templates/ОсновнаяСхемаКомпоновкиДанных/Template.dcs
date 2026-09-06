@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>DataSource1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Результаты</name>
+		<dataSource>DataSource1</dataSource>
+		<query>ВЫБРАТЬ
+	Результаты.Ссылка КАК РезультатПопытки,
+	Результаты.Дата КАК ДатаРегистрации,
+	Результаты.Кандидат КАК Кандидат,
+	Результаты.ИмяКандидатаСнимок КАК ИмяКандидата,
+	Результаты.Тест КАК Тест,
+	Результаты.ВерсияТеста КАК ВерсияТеста,
+	Результаты.ДатаНачала КАК ДатаНачала,
+	Результаты.ДатаЗавершения КАК ДатаЗавершения,
+	Результаты.СтатусПроверки КАК СтатусПроверки,
+	Результаты.РезультатПрохождения КАК РезультатПрохождения,
+	Результаты.НабраноБаллов КАК НабраноБаллов,
+	Результаты.МаксимумБаллов КАК МаксимумБаллов,
+	Результаты.ПроцентБаллов КАК ПроцентБаллов,
+	Результаты.ПроцентПравильныхОтветов КАК ПроцентПравильныхОтветов,
+	Результаты.ДлительностьСекунд КАК ДлительностьСекунд
+ИЗ
+	Документ.РезультатПопытки КАК Результаты
+ГДЕ
+	Результаты.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="xs:string">Начало периода</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="xs:string">Конец периода</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+	</parameter>
+</DataCompositionSchema>

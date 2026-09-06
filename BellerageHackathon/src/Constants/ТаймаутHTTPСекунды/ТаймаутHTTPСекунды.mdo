@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="759398b1-9cf2-442b-b465-7452d8975aaf">
+  <producedTypes>
+    <managerType typeId="4b11b77c-0aca-4dac-ac96-a8e2bf323a35" valueTypeId="fc12b184-cc20-453a-8c10-3338832027c4"/>
+    <valueManagerType typeId="039f7ddc-3db6-4714-b50e-e22b203c07f8" valueTypeId="0ef88ffe-ccb0-4927-9a3b-4ba22defc607"/>
+    <valueKeyType typeId="cacfa76f-8f8b-4fca-be07-b92bace0ce1e" valueTypeId="5db2ab43-08b5-47e8-bda3-9a389d83aecd"/>
+  </producedTypes>
+  <name>ТаймаутHTTPСекунды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут HTTP, секунд</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

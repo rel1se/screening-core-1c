@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0741e57-c7ed-4ff9-97a4-c81b3c88a33f">
+  <name>РезультатыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты тестирования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КандидатыВнешние</content>
+  <content>Document.РезультатПопытки</content>
+  <content>Enum.СтатусыПроверкиОтвета</content>
+  <content>Enum.СтатусыПроверкиПопытки</content>
+  <content>Enum.РезультатыПрохождения</content>
+  <content>Enum.СпособыЗавершенияПопытки</content>
+  <content>CommonModule.РасчетРезультатовТестовСервер</content>
+  <content>Report.РезультатыТестирования</content>
+</mdclass:Subsystem>

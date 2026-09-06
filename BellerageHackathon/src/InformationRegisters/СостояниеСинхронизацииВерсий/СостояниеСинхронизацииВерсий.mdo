@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de45bc36-1ad1-438a-9931-11255e5353d4">
+  <producedTypes>
+    <selectionType typeId="0c53d852-dfa5-48f6-989f-584b3a159a60" valueTypeId="3eeb16bd-9e00-45de-a1bc-122b9eb1260c"/>
+    <listType typeId="ea5eaa9d-e3c3-47db-8bc1-d78280606ef7" valueTypeId="f5ad3da8-8940-4e6f-8030-abe8fbc07b31"/>
+    <managerType typeId="5cd13dde-6217-4bf0-bcd3-3f2b75129468" valueTypeId="7958dfb9-e5ba-4dbf-a033-c073be2d3050"/>
+    <recordSetType typeId="0566b63c-f885-4bed-941f-00a39a721bba" valueTypeId="3184828d-9fea-46d2-b53e-ce7425d47c11"/>
+    <recordKeyType typeId="b82b9790-f61a-4f84-bc4d-39546c244dd8" valueTypeId="86f5ae61-f6e1-46d0-8f57-92e8b93589de"/>
+    <recordType typeId="71dab137-e25d-4a1d-8f07-4737e191edf6" valueTypeId="8c24c6ee-5b2e-4379-985a-5eac662ad691"/>
+    <recordManagerType typeId="837715c8-f3d1-4699-bd99-01219eed4c6d" valueTypeId="a12eb177-296e-45ad-92a3-2109f0cd5794"/>
+  </producedTypes>
+  <name>СостояниеСинхронизацииВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние синхронизации версий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b2cf56d3-6ab0-4ce8-98e3-d40f7c27c28a">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+  </resources>
+  <resources uuid="2a335978-d144-4eb8-a3bf-7aa4ddb38748">
+    <name>ХэшСодержимого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш содержимого</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="d1dc174c-7643-45f7-8ee8-5de620e93e90">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСообщенийОбмена</types>
+    </type>
+  </resources>
+  <resources uuid="bf6f0a74-239f-4eeb-8dfd-23c4a8181f34">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="979e43dc-a122-42b3-bbef-d29e6cb64644">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="71aa4a2d-6c79-4108-8437-0ce512470575">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="f6214979-2aa6-430a-8365-fca6eb9d13ae">
+    <name>ВерсияТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия теста</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

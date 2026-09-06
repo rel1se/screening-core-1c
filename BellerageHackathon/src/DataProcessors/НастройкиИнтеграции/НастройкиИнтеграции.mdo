@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c53de772-f378-4a42-a0ef-a2b19577e736">
+<producedTypes><objectType typeId="0dca2a4c-d8bb-4417-bc19-a012c9924ff6" valueTypeId="4776660a-a88a-41ca-8a01-7bc3bcecfe97"/><managerType typeId="3b2c5317-6e5d-4de1-8916-3e54f7cdcd5a" valueTypeId="f6e83dd2-4bfa-4359-b57f-c36d6b22e973"/></producedTypes>
+<name>НастройкиИнтеграции</name><synonym><key>ru</key><value>Настройки обмена с 1С Элементом</value></synonym><useStandardCommands>true</useStandardCommands>
+<defaultForm>DataProcessor.НастройкиИнтеграции.Form.Форма</defaultForm>
+<forms uuid="50834c1d-0d44-4540-babd-ea8699eb4d34"><name>Форма</name><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:DataProcessor>

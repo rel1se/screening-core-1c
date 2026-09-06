@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a093fb45-8b65-49c1-9950-3e89c7680ec0">
+  <producedTypes>
+    <managerType typeId="ad055872-adf3-46b0-ad50-4677853ff1ce" valueTypeId="a4dd4b55-cdf0-4110-9b9c-32ce244fa4b1"/>
+    <valueManagerType typeId="289d08ad-2cba-49c9-9dc8-8fd31b04a1df" valueTypeId="cefda038-cd8d-4b0f-bd41-ec49a4cbadd1"/>
+    <valueKeyType typeId="f2559761-0692-4ea1-9ac3-8b127fcc5fbe" valueTypeId="bf58b388-2e85-432d-bc94-37fc54dc7da6"/>
+  </producedTypes>
+  <name>РазмерПакетаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета обмена</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

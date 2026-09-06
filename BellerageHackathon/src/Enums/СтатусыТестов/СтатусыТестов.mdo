@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eda555db-5032-42d7-8bcb-c9dede1cb564">
+  <producedTypes>
+    <refType typeId="582072ff-792f-4d26-9d5f-9f996bd0cf57" valueTypeId="a298bdb1-0a8c-424d-8e88-dedb67c26489"/>
+    <listType typeId="ae7ccd92-8803-4ebe-b015-5d19bdbc1758" valueTypeId="cafc8dd4-ced8-4866-9f68-519e3e29767a"/>
+    <managerType typeId="de9b177d-28fc-4cae-b9be-1b5f6dfe525d" valueTypeId="58a657d3-0217-4be8-a774-2dcf4707dd1b"/>
+  </producedTypes>
+  <name>СтатусыТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы тестов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0fbb78e5-57ad-4e99-bf43-39d0490f3435">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6009786-63f0-48d5-8f2e-6f27f8b94257">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86e19207-239d-4769-8c2f-fd7c11709f0b">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

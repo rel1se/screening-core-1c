@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5cd3440-0f3f-48dc-a148-3c70f516b3e6">
+  <producedTypes>
+    <selectionType typeId="fa3aa7df-2c28-4674-b34d-2f15cd0a426e" valueTypeId="a821b037-fee6-4f55-80b6-edb5c7429808"/>
+    <listType typeId="fb2ae66a-2812-4845-8bcd-60acf7ec5cff" valueTypeId="4a82e3e5-a3ac-4f7c-b42a-01e435dfc834"/>
+    <managerType typeId="f58b9041-4cc5-4e73-94ad-a3658cd3ac9d" valueTypeId="23d60590-17f7-431c-b848-ba3ea7241c4d"/>
+    <recordSetType typeId="62ee1a0e-6be8-45ff-93e1-62a1393168d8" valueTypeId="f01b8a8c-7816-4468-9334-3e3c6ae2ffdf"/>
+    <recordKeyType typeId="18305325-6b12-4184-8b7c-fc4080877e28" valueTypeId="0357acf5-ee72-4753-832e-104bf7d85061"/>
+    <recordType typeId="f5778dd3-5338-4843-ac7c-27ad82385010" valueTypeId="d2c5eeaa-fe51-4a68-a4ae-4b01522617e6"/>
+    <recordManagerType typeId="aa494fe1-110f-44a3-a73e-0bb8e5f32309" valueTypeId="8369937b-a506-41c0-b852-bb35a7b1f98a"/>
+  </producedTypes>
+  <name>ИдентификаторыИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы интеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="43067e02-64ee-4222-91ff-775e38d18000">
+    <name>Объект1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+      <types>CatalogRef.ВерсииТестов</types>
+      <types>CatalogRef.ВопросыВерсийТестов</types>
+      <types>CatalogRef.ВариантыОтветовВерсий</types>
+      <types>CatalogRef.КандидатыВнешние</types>
+      <types>CatalogRef.СообщенияОбмена</types>
+      <types>DocumentRef.ПубликацияТеста</types>
+      <types>DocumentRef.РезультатПопытки</types>
+    </type>
+  </resources>
+  <resources uuid="24edfee5-3143-4743-aaa8-94955f0fba4b">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <dimensions uuid="dd6e7bd0-90ea-4d7c-9756-e9c64c347126">
+    <name>ВидСущности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сущности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="b4d820df-495e-4aa6-9d6a-8c9383e6db1e">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

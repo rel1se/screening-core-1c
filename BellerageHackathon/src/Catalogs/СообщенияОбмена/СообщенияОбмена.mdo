@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70db3288-34d7-49e5-852f-aacef4ebc20a">
+  <producedTypes>
+    <objectType typeId="e3288765-031c-49f0-b198-7dafc919f356" valueTypeId="0f4b6335-14f3-445b-9c15-9fdba363a9ca"/>
+    <refType typeId="a30211ff-baaf-420f-96e3-191faf27d40e" valueTypeId="9119d84f-125b-4ef8-b181-df3f448c059e"/>
+    <selectionType typeId="0c44a008-dbed-43e4-ae71-918c9198e0f1" valueTypeId="61fa14f0-2a16-4da6-af98-8c6f4fafb7d8"/>
+    <listType typeId="8bd1e138-3881-4ba8-b802-bc3fe2a3570c" valueTypeId="df7f2bd0-ebb2-4c6a-a871-4e7f256b07b6"/>
+    <managerType typeId="97317003-e542-4cdb-ab07-ca20f18cdfc0" valueTypeId="ac3fc6df-6636-4069-828a-d4bd1503190e"/>
+  </producedTypes>
+  <name>СообщенияОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СообщенияОбмена.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СообщенияОбмена.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="130b8404-9313-4cd0-9fb8-f9a9fc828f88">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="53063d3c-9732-4931-9dc0-097d771087de">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияОбмена</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="1c5ac175-6d7e-4639-8c99-9209501f4287">
+    <name>ТипСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСообщенийОбмена</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="2dc78b0b-2589-4e29-af17-2fece82c4d8e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСообщенийОбмена</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="8f164355-4561-41b3-902d-2139fe0f66be">
+    <name>ИдентификаторКорреляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор корреляции</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a36be73d-4e40-4b78-8d29-41c5f392d592">
+    <name>ИдентификаторСущности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сущности</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="81188510-78ed-4d9f-a57f-55c0e69a3e0e">
+    <name>ВерсияКонтракта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия контракта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ae196beb-25b5-4331-8599-a10812fca714">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="86d811f6-a8c6-4869-bdc7-917070969842">
+    <name>ДатаСледующейПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующей попытки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a9bf9901-e20d-471d-9485-0b481e2b6db7">
+    <name>ДатаПоследнейПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней попытки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="72dde254-bd6b-4b33-8434-8c9da6991c32">
+    <name>ДатаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="fa9ed46d-8cec-4ccd-8313-35644a0b65d4">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="f3d337df-8f25-477c-9356-262d528758eb">
+    <name>ХэшПолезнойНагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш полезной нагрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="5ca42d10-a861-4044-bbb2-af8d518a4da5">
+    <name>ПолезнаяНагрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полезная нагрузка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </attributes>
+  <attributes uuid="ca94c5ee-9ea1-4ff6-a390-633346d33e26">
+    <name>КодHTTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код HTTP</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="a3c8f4d8-bf79-422d-93c7-c2070bc5dd54">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <defaultObjectForm>Catalog.СообщенияОбмена.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="c60642b8-28ef-4b8e-bb3a-4f3c35fd0338"><name>ФормаЭлемента</name><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:Catalog>

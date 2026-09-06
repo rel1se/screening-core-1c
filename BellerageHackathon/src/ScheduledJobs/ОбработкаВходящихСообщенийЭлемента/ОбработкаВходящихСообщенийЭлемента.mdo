@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb0becba-89e8-4c9f-a5fb-00fce31ed353">
+  <name>ОбработкаВходящихСообщенийЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка входящих сообщений Элемента</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияСЭлементомСервер.ОбработатьОчередьВходящихСообщений</methodName>
+  <description>Разбирает durable inbox и создает документы результатов попыток. Рекомендуемый интервал запуска — 1 минута.</description>
+  <key>ElementInboxProcessor</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>60</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

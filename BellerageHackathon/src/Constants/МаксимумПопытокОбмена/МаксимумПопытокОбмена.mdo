@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d1b880a-0d70-436c-87d5-476634defdf4">
+  <producedTypes>
+    <managerType typeId="efb85fc8-bb1f-40b8-a08d-18e7dd503cec" valueTypeId="98de5943-ebdb-4d3b-8d42-4ad5f621f39d"/>
+    <valueManagerType typeId="46910ed4-0f66-4fc0-9f2c-6d66860ba96c" valueTypeId="e007f0c7-cd53-43a7-9227-d75d7569d854"/>
+    <valueKeyType typeId="ee76017a-4443-43dc-8904-3f95605fa99a" valueTypeId="643dd56a-ac8a-4e15-958d-1392f73dcc6b"/>
+  </producedTypes>
+  <name>МаксимумПопытокОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимум попыток обмена</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

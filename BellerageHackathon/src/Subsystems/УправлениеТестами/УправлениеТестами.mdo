@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a28549-36d2-4c67-8170-ae0a2c209d15">
+  <name>УправлениеТестами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление тестами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Тесты</content>
+  <content>Catalog.ВерсииТестов</content>
+  <content>Catalog.ВопросыВерсийТестов</content>
+  <content>Catalog.ВариантыОтветовВерсий</content>
+  <content>Enum.СтатусыТестов</content>
+  <content>Enum.СтатусыВерсийТестов</content>
+  <content>Enum.ТипыОтветов</content>
+  <content>Enum.СпособыПроверкиОтвета</content>
+  <content>Document.ПубликацияТеста</content>
+  <content>CommonModule.УправлениеВерсиямиТестовСервер</content>
+  <content>DataProcessor.РабочееМестоАдминистратора</content>
+</mdclass:Subsystem>

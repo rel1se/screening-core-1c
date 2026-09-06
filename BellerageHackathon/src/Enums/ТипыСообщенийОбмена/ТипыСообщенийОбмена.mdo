@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbb0590c-c094-4fa0-ada4-e77d0b7ac0e8">
+  <producedTypes>
+    <refType typeId="abc78437-62b5-4833-a64d-3c6ae09ceeea" valueTypeId="fb54bc73-d121-47d5-9090-1c66666430ce"/>
+    <listType typeId="af214fae-2f0f-4622-b362-71335865d50d" valueTypeId="d066e926-8782-471b-a74c-33f16eaf8cb2"/>
+    <managerType typeId="da1daddc-3459-4fa3-9d75-5a2b87e73a8a" valueTypeId="4f18b4bc-dcde-490b-a2d8-152e2291df85"/>
+  </producedTypes>
+  <name>ТипыСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сообщений обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8496ffc4-40a8-45b9-9cd9-76105047f311">
+    <name>ПубликацияВерсииТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация версии теста</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae0dd293-033a-42d7-8ea4-7fe28f58b32e">
+    <name>АрхивацияТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивация теста</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86328fd6-ceec-456f-8035-b80d880a1e25">
+    <name>РезультатПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат попытки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1cf366b-f944-40f3-902d-ce24e83c546b">
+    <name>Подтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d28c1f3a-435e-41c2-af80-c71b361d7618">
+    <name>РезультатРучнойПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат ручной проверки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

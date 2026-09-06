@@ -27,6 +27,12 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.5.1</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <synonym><key>ru</key><value>Центр тестирования</value></synonym>
+  <version>1.1.0</version>
+  <commonModules>CommonModule.РабочееМестоТестированияСервер</commonModules>
+  <dataProcessors>DataProcessor.РабочееМестоАдминистратора</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиИнтеграции</dataProcessors>
   <languages uuid="92800d8c-bd1b-47f9-8d09-5f3fd8ae67cd">
     <name>Русский</name>
     <synonym>
@@ -35,4 +41,51 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.УправлениеТестами</subsystems>
+  <subsystems>Subsystem.РезультатыТестирования</subsystems>
+  <subsystems>Subsystem.ИнтеграцияСЭлементом</subsystems>
+  <roles>Role.АдминистраторТестирования</roles>
+  <roles>Role.РедакторТестов</roles>
+  <roles>Role.ПросмотрРезультатов</roles>
+  <roles>Role.ОператорИнтеграции</roles>
+  <commonModules>CommonModule.УправлениеВерсиямиТестовСервер</commonModules>
+  <commonModules>CommonModule.РасчетРезультатовТестовСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСЭлементомСервер</commonModules>
+  <httpServices>HTTPService.ИнтеграцияСЭлементом</httpServices>
+  <scheduledJobs>ScheduledJob.ОтправкаСообщенийВЭлемент</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбработкаВходящихСообщенийЭлемента</scheduledJobs>
+  <constants>Constant.ХостAPIЭлемента</constants>
+  <constants>Constant.ПортAPIЭлемента</constants>
+  <constants>Constant.ИспользоватьHTTPSЭлемента</constants>
+  <constants>Constant.БазовыйПутьAPIЭлемента</constants>
+  <constants>Constant.ТокенИнтеграцииЭлемента</constants>
+  <constants>Constant.ТаймаутHTTPСекунды</constants>
+  <constants>Constant.МаксимумПопытокОбмена</constants>
+  <constants>Constant.БазоваяЗадержкаПовтораСекунды</constants>
+  <constants>Constant.РазмерПакетаОбмена</constants>
+  <constants>Constant.ИдентификаторУзла1С</constants>
+  <constants>Constant.ИмяПеременнойСредыТокенаЭлемента</constants>
+  <catalogs>Catalog.Тесты</catalogs>
+  <catalogs>Catalog.ВерсииТестов</catalogs>
+  <catalogs>Catalog.ВопросыВерсийТестов</catalogs>
+  <catalogs>Catalog.ВариантыОтветовВерсий</catalogs>
+  <catalogs>Catalog.КандидатыВнешние</catalogs>
+  <catalogs>Catalog.СообщенияОбмена</catalogs>
+  <documents>Document.РезультатПопытки</documents>
+  <documents>Document.ПубликацияТеста</documents>
+  <enums>Enum.СтатусыТестов</enums>
+  <enums>Enum.СтатусыВерсийТестов</enums>
+  <enums>Enum.ТипыОтветов</enums>
+  <enums>Enum.СпособыПроверкиОтвета</enums>
+  <enums>Enum.СтатусыПроверкиОтвета</enums>
+  <enums>Enum.РезультатыПрохождения</enums>
+  <enums>Enum.СпособыЗавершенияПопытки</enums>
+  <enums>Enum.СтатусыСообщенийОбмена</enums>
+  <enums>Enum.ТипыСообщенийОбмена</enums>
+  <enums>Enum.НаправленияОбмена</enums>
+  <enums>Enum.СтатусыПроверкиПопытки</enums>
+  <reports>Report.РезультатыТестирования</reports>
+  <informationRegisters>InformationRegister.ОбработанныеВходящиеСообщения</informationRegisters>
+  <informationRegisters>InformationRegister.ИдентификаторыИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеСинхронизацииВерсий</informationRegisters>
 </mdclass:Configuration>

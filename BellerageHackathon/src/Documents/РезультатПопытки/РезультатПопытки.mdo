@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa67e14-44a8-48aa-abdd-183ebdeeeff9">
+  <producedTypes>
+    <objectType typeId="5a92235b-7140-4d5e-b90b-53af30608eb8" valueTypeId="4f365425-1f0d-438d-9f54-574a32244b6e"/>
+    <refType typeId="61c42748-e2c8-4fa7-960b-a62e9d60e468" valueTypeId="2ed92bfd-9a58-4a76-b04e-5dd33fcdf416"/>
+    <selectionType typeId="1059624c-2190-4835-8d36-3f54f710aded" valueTypeId="04973064-012e-4f54-8e61-7477287091d0"/>
+    <listType typeId="86236531-c7f7-4b1c-9cdf-a8c2f086a532" valueTypeId="4ba17030-d3ac-46aa-9640-6519976092bf"/>
+    <managerType typeId="7d1a2c6c-bb04-4697-a779-023d1b05f9cb" valueTypeId="0cbbf308-89a4-4360-ac5c-01485fe21598"/>
+  </producedTypes>
+  <name>РезультатПопытки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат попытки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РезультатПопытки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d39091f3-246b-4ad0-ac04-c9130afea8b6">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="addd17e9-73ad-4036-ad2d-c793067c9ca6">
+    <name>ИдентификаторПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор попытки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="ff461aed-6aaf-4448-bec9-d762a2df6513">
+    <name>РевизияРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ревизия результата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="e4e0b231-6ac0-4796-80d8-f267e8b772ac">
+    <name>ИдентификаторНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор назначения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="957bf703-f7a4-4903-947c-72f849d2c55c">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КандидатыВнешние</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="7d0c88b6-cf87-4eef-91e9-fd0fb1500cb5">
+    <name>ИмяКандидатаСнимок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя кандидата (снимок)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="d55a9c6c-00f9-464b-aba5-fac162f53fdf">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="7557532b-44f4-4ccb-955a-ba4aba61dfcd">
+    <name>ВерсияТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия теста</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="c8c69edc-6b4a-4ead-8e2f-3a066842e0fe">
+    <name>ХэшВерсииТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш версии теста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="b7ca4d24-b3fd-4518-aef1-f07b05f1d6ba">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="d1b53265-0359-4cd1-808d-7786602b526e">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="08d31829-f63d-4407-87a7-d814c08647cc">
+    <name>ДатаПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="12aa7640-4e02-4d11-98ac-7459ba0bef08">
+    <name>СпособЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ завершения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыЗавершенияПопытки</types>
+    </type>
+  </attributes>
+  <attributes uuid="dce398d1-7e46-4a66-9679-65405da0cd70">
+    <name>СтатусПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус проверки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПроверкиПопытки</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="de1a340d-47ea-426f-b20c-0440b4258eda">
+    <name>РезультатПрохождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат прохождения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатыПрохождения</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="768c6350-80f0-487b-a7c0-204b7bc971c7">
+    <name>НабраноБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набрано баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="7ae0cfdd-682c-4e0d-aba2-1b11015cdf17">
+    <name>МаксимумБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимум баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ffab9a58-cb73-401d-875f-47917aee1cd3">
+    <name>ПроцентБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент баллов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="b9ab4cc0-927a-4c55-97b2-fac4519015cb">
+    <name>ПроцентПравильныхОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент правильных ответов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="936d1a12-8332-4015-8e38-de40cca1f724">
+    <name>ПроходнойБаллСнимок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проходной балл (снимок)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="681c1a48-3fed-4afe-aa86-924d1226db0c">
+    <name>ДлительностьСекунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность, секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="bdd38a5f-6783-40c7-9827-bddbee78365b">
+    <name>ХэшИсходногоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш исходного сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="f3b1367d-1270-4d25-bd02-1e75bcc5722d">
+    <name>ИсходноеСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходное сообщение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </attributes>
+  <tabularSections uuid="c8ab5ea0-a09f-49c2-a44f-3e9cd2e9a7b3">
+    <producedTypes>
+      <objectType typeId="87e7ae42-d3e8-4b35-b498-163f385cd595" valueTypeId="ee7588e2-b81a-4f22-828c-5476bd7f92c1"/>
+      <rowType typeId="febd8ba3-2217-43e1-9492-2771e0263efb" valueTypeId="4895fa78-d6c7-4659-812d-4c35c3b483d2"/>
+    </producedTypes>
+    <name>Ответы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы</value>
+    </synonym>
+    <attributes uuid="548c9117-14d0-4bef-bd2e-e814b4a477d2">
+      <name>ИдентификаторОтвета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор ответа</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+    </attributes>
+    <attributes uuid="cd86d1dd-ba35-4fa9-86ba-82d2fdbc7575">
+      <name>ПорядокВПопытке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок в попытке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="cec1628c-d8dd-4213-a994-79bca8334dad">
+      <name>ВопросВерсии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вопрос версии</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВопросыВерсийТестов</types>
+      </type>
+    </attributes>
+    <attributes uuid="03a1bcd8-78da-4fd2-9f98-9cd6d8ede078">
+      <name>ТекстВопросаСнимок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст вопроса (снимок)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+    <attributes uuid="9b59f72c-a307-423d-baf9-8bbd518601bc">
+      <name>ТипОтветаСнимок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ответа (снимок)</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыОтветов</types>
+      </type>
+    </attributes>
+    <attributes uuid="b5230dfe-ea37-4770-839e-f113a7a23443">
+      <name>ТекстовыйОтвет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовый ответ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+    <attributes uuid="0d9b3a6a-be17-4acf-adde-07865a37c6d3">
+      <name>ОтветДан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ дан</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </attributes>
+    <attributes uuid="ecfc9ddb-cfa8-491d-99a8-6c857d9d89e8">
+      <name>СтатусПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус проверки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыПроверкиОтвета</types>
+      </type>
+    </attributes>
+    <attributes uuid="02da103c-05f2-4630-ba05-75ebdc3b7086">
+      <name>ОтветПравильный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ правильный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </attributes>
+    <attributes uuid="2f78c457-f883-44d6-b771-43446d3a1f07">
+      <name>НабраноБаллов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набрано баллов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="f13c494b-2d8a-4b79-a1b9-6a5efa8dc079">
+      <name>МаксимальныйБалл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальный балл</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="14c47707-1dca-4d2c-8d67-1e844d1305df">
+      <name>КомментарийПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий проверки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fe328ada-3988-481f-80ba-c86cca27ef5c">
+    <producedTypes>
+      <objectType typeId="7d188218-bf8a-4c90-b5a9-bae130b6e6c7" valueTypeId="7ddd272d-2f82-4bda-a346-8c64841c8dc3"/>
+      <rowType typeId="cad3bc46-95ad-4d7d-8c0a-1c948b5b16d6" valueTypeId="01909196-89f1-47b1-8c7a-1dbc7797fa76"/>
+    </producedTypes>
+    <name>ВариантыОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты ответов</value>
+    </synonym>
+    <attributes uuid="2e24db8e-48ba-484b-b853-5f48263d23d1">
+      <name>ИдентификаторОтвета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор ответа</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+    </attributes>
+    <attributes uuid="b16e98f9-fc9d-483c-ab54-4da32ae3401b">
+      <name>ВариантОтветаВерсии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант ответа версии</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыОтветовВерсий</types>
+      </type>
+    </attributes>
+    <attributes uuid="efb186ba-ebae-4508-8492-8c13e8799bf5">
+      <name>ИдентификаторВерсииВарианта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор версии варианта</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+    </attributes>
+    <attributes uuid="d68c65b8-a7b8-48b0-8d50-e6acaba41156">
+      <name>ПорядокВПопытке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок в попытке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="7def8ec8-9c75-4104-965d-a53ad8c43f7a">
+      <name>ТекстВариантаСнимок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст варианта (снимок)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+    </attributes>
+    <attributes uuid="008d83fb-f801-4f59-adee-2318c719030c">
+      <name>Выбран</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбран</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </attributes>
+  </tabularSections>
+  <defaultObjectForm>Document.РезультатПопытки.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="af64d59e-7e14-42f0-ad67-178ce7603f90"><name>ФормаЭлемента</name><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:Document>
