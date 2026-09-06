@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37c7a24a-d590-4025-92ae-373d398c341b">
+  <name>ОтправкаСообщенийВЭлемент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений в Элемент</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияСЭлементомСервер.ОбработатьОчередьИсходящихСообщений</methodName>
+  <description>Отправляет сообщения outbox из 1С в 1С:Элемент. Рекомендуемый интервал запуска — 1 минута.</description>
+  <key>ElementOutboxSender</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>60</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

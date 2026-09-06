@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9086c232-8192-4f8a-8ea2-dc7f2c5e3c84">
+  <producedTypes>
+    <managerType typeId="7451e679-79a1-455d-91a9-94c19ae5a36d" valueTypeId="96b038a2-3757-448f-b025-80d3fe7b3bf5"/>
+    <valueManagerType typeId="cdd09e6b-ca73-4ec3-83eb-9c2c7eb6c437" valueTypeId="200b0326-f9da-45b2-b85c-1899c5c47051"/>
+    <valueKeyType typeId="6fe1c93c-3622-4f84-8d85-343689022b31" valueTypeId="31f44538-8c47-456e-9ec0-e358ed2b592c"/>
+  </producedTypes>
+  <name>ИмяПеременнойСредыТокенаЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарезервировано: имя переменной секрета</value>
+  </synonym>
+  <comment>Не используется: серверная платформа не предоставляет переносимого API чтения переменных среды. Секреты должны настраиваться на уровне публикации 1С или API-шлюза.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

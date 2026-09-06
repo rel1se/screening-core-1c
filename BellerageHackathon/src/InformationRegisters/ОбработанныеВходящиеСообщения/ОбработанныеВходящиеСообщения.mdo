@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ece4aaf-245d-421e-89d5-8079fa68edea">
+  <producedTypes>
+    <selectionType typeId="b59c5879-4428-4dcc-9583-7d0085033cfa" valueTypeId="f6b27dc1-f4ff-4e20-b743-1034fe460263"/>
+    <listType typeId="ec9af00e-a17b-4af1-b9a5-c91cb4305fed" valueTypeId="e73eced8-1331-46cf-9de5-ff631b75dc3a"/>
+    <managerType typeId="dff1e0d9-cbe6-435a-975c-ea258a3e766a" valueTypeId="7a08a591-e03a-4558-9adf-8269e0c80569"/>
+    <recordSetType typeId="f9c151a3-64ea-4b38-808f-f80c783ab3eb" valueTypeId="bc557322-a5bb-4684-b00b-af36e75f8c2e"/>
+    <recordKeyType typeId="8a7fb390-7a2d-413a-871a-e0cb589864bb" valueTypeId="becc2a54-5eda-4d33-bdb6-93adee288ba1"/>
+    <recordType typeId="ea5e8390-f7b9-431c-a58e-8624060e9968" valueTypeId="dbe2c8a5-71a7-4aae-9f8c-adf66baa49f1"/>
+    <recordManagerType typeId="c6588ddc-121f-4cd4-a9c2-84d1bc34cef5" valueTypeId="cf6ffde5-3a11-4764-b5a8-e3deebadd2ec"/>
+  </producedTypes>
+  <name>ОбработанныеВходящиеСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработанные входящие сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2fb59001-6e2b-4607-9b20-d17e8742a075">
+    <name>ХэшСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="3cdf6e06-5855-4320-bbd7-51eb374359d5">
+    <name>ТипСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСообщенийОбмена</types>
+    </type>
+  </resources>
+  <resources uuid="ce778e90-4f4f-480d-8385-c74f02735e9b">
+    <name>ДатаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="17afaec6-d611-4b67-819a-7d3f13d8a3c5">
+    <name>РезультатПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат попытки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РезультатПопытки</types>
+    </type>
+  </resources>
+  <dimensions uuid="772c7b71-74af-4ca9-9a26-2f54d21a5b77">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

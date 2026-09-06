@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbfae27f-3524-49d0-9704-0ac5179aa1d0">
+  <producedTypes>
+    <refType typeId="918c2ab5-afa2-4add-8669-b7e9b79e1d6e" valueTypeId="1ca67846-e622-4127-a959-f703d4e08c49"/>
+    <listType typeId="9a6d9659-f818-4b52-856a-b9a0330ce74a" valueTypeId="7fad8245-5c9d-4b54-8701-d7cfa3faae67"/>
+    <managerType typeId="5a508d9a-4b97-4eeb-bfb2-26fb38c69a66" valueTypeId="e5926106-58fd-447b-af1c-c340421eaa67"/>
+  </producedTypes>
+  <name>СпособыПроверкиОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы проверки ответа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="53c5a768-b989-4747-8613-975dad7637da">
+    <name>ТочныйВариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точный вариант</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="369b5bc3-e92e-402f-9b93-68acc9b2f26c">
+    <name>ТочныйНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точный набор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77232d40-2654-4769-91e2-6aac7ba77fc5">
+    <name>ТекстПоЭталону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст по эталону</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fab6210-93a9-481e-aeef-aee8c50ad312">
+    <name>РучнаяПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная проверка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

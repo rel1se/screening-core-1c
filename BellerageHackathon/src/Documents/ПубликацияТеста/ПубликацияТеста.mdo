@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c7ab325-63fc-42a1-ab3a-208af103dbd4">
+  <producedTypes>
+    <objectType typeId="a0f92385-38cb-4829-aafa-52ad6cec7712" valueTypeId="1f063ffa-d342-4ed3-a007-951746a706a0"/>
+    <refType typeId="34798271-0380-4a0d-b7b1-9aaccf458a09" valueTypeId="9d86ab3a-1c03-482b-aa35-f9ae1a3396e5"/>
+    <selectionType typeId="62316d2b-f2d8-466c-9db1-77fbdd8230c1" valueTypeId="74504614-d093-42fc-ad05-29025e9a24e9"/>
+    <listType typeId="970c4ab3-9828-4610-a678-2481781f7010" valueTypeId="d0a67ce0-27fc-4bf3-9911-fb3bbc5967a8"/>
+    <managerType typeId="a4ffdde2-703f-43ec-8a45-3b828db909e7" valueTypeId="fdb42bbb-f01a-4eb6-8bfb-4530b934e199"/>
+  </producedTypes>
+  <name>ПубликацияТеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Публикация теста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПубликацияТеста.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1be7a026-fdd0-4a01-b817-93393dc0ca76">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="ccb7f1b5-06cd-442e-91f8-709a119de3be">
+    <name>ВерсияТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия теста</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="c1842d92-e574-49ae-ad07-9693d8eaf057">
+    <name>ПредыдущаяОпубликованнаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предыдущая опубликованная версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+  </attributes>
+  <attributes uuid="c0cff55b-aa75-4f82-a2ce-c99a5e89bacb">
+    <name>ХэшСодержимого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш содержимого</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="54db7533-5b27-415c-abc8-233e1c2ef5b4">
+    <name>СообщениеОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение обмена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СообщенияОбмена</types>
+    </type>
+  </attributes>
+  <attributes uuid="618f2966-279c-43d4-a037-caac7281e105">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+</mdclass:Document>

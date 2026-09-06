@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec4c0922-2041-4d28-8918-27c8df2f96b3">
+  <producedTypes>
+    <objectType typeId="3dd98379-4876-4670-9cb2-16f4164ecc80" valueTypeId="00c78995-3142-4bd0-8f0f-200f1f954559"/>
+    <refType typeId="44a7ca19-0254-46d3-93e6-2bddbf0adbfb" valueTypeId="7398464c-5013-45a2-b785-d7510b49c176"/>
+    <selectionType typeId="cbb32cbc-7eaa-47b4-b260-41c41e7c52b2" valueTypeId="b1abfe9c-5c18-4dc3-a4fc-fa410c7b9e3e"/>
+    <listType typeId="557e4795-940a-4706-89b3-a7fb0bfa029b" valueTypeId="ef21f1cd-e196-46bc-8d7e-70cd4104fe71"/>
+    <managerType typeId="6a518d85-958a-4ef3-8abb-267c067a6f34" valueTypeId="45be00a7-3a04-4a9f-ba8c-75f84c273bec"/>
+  </producedTypes>
+  <name>ВариантыОтветовВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ответов версий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыОтветовВерсий.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВариантыОтветовВерсий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВопросыВерсийТестов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="400d3537-571c-45b8-95a0-a4e7843d7a0a">
+    <name>ИдентификаторВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор варианта</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="0f1d914b-960c-459f-bd3a-41cf9f9ac3b9">
+    <name>ИдентификаторВерсииВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор версии варианта</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="6773c0fd-eeba-4575-8366-ebf4548738e4">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="dfabfd25-2273-4ddc-8fdd-19d97fb05047">
+    <name>ТекстВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст варианта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="98431aa6-11a9-4869-bfe9-fce348d75f98">
+    <name>Правильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правильный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <defaultObjectForm>Catalog.ВариантыОтветовВерсий.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="a9d582df-da1b-434e-824c-ab2b44f2b8cf"><name>ФормаЭлемента</name><synonym><key>ru</key><value>Вариант ответа</value></synonym><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:Catalog>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9002c72e-6bad-4f94-9c20-43a8805af65c">
+  <producedTypes>
+    <objectType typeId="733d03f0-f8b7-4d56-86dc-96746e8520b5" valueTypeId="d86f964d-c87e-4a33-9a36-38248a103e92"/>
+    <refType typeId="ec14fc4d-dc36-42e1-8be1-b67a0a1476eb" valueTypeId="1140bdd5-c231-431b-afd0-88fae12619d8"/>
+    <selectionType typeId="b711c52f-6402-4348-9fcc-38d85e919969" valueTypeId="a094c56d-bf32-43a9-b580-b4c93f05d765"/>
+    <listType typeId="286736f1-a1fe-4c8f-9a02-96bd3d863a3a" valueTypeId="23872627-d2c8-41c6-8801-0d3a2d7b1ea4"/>
+    <managerType typeId="f10b7f95-3987-46ca-bc97-5021e1333aea" valueTypeId="83428462-d0b5-4f65-a4e5-15aff8c622d2"/>
+  </producedTypes>
+  <name>КандидатыВнешние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кандидаты внешние</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КандидатыВнешние.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КандидатыВнешние.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.КандидатыВнешние.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="75ad822b-fb45-412b-b5da-4edf28bfc9e0">
+    <name>ИдентификаторКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор кандидата</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="0da96b27-97d8-4c5c-b572-f37487f7713b">
+    <name>ОтображаемоеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображаемое имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="01dc7c7d-7c5f-4454-ba8f-acb8dca5228a">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="f0b363ff-cdc0-47d8-9f57-e489d818c4ef">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="a32cb0e0-4988-4cdd-aa02-a7fae65389d3">
+    <name>РевизияЭлемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ревизия Элемента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="ccdbcf92-b3c6-46bd-bffa-13c06280be28">
+    <name>ДатаПоследнейСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней синхронизации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <forms uuid="c2fcb474-cf1e-4375-b559-e1f46ec13382">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

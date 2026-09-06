@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbe686bc-4227-428d-a24e-4364c5f0eb4a">
+  <producedTypes>
+    <managerType typeId="09455b1c-a33f-4804-8fd2-b9a80b029eea" valueTypeId="a1e9bc59-7cfd-451e-b3fd-84b85032d212"/>
+    <valueManagerType typeId="f5d8aab3-fbcb-4879-8181-83eb51c83845" valueTypeId="1458fd60-d8e7-4395-914d-c42fe018f047"/>
+    <valueKeyType typeId="a9e34e29-37b0-472c-82b4-473100913b5e" valueTypeId="d0766fe4-bb90-4329-9db1-ce7b01d294a1"/>
+  </producedTypes>
+  <name>ТокенИнтеграцииЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Устарело: токен интеграции не использовать</value>
+  </synonym>
+  <comment>Оставлено только из-за запрета EDT на удаление объекта. Код не читает значение; секрет задается через переменную среды серверного процесса.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <extendedEdit>true</extendedEdit>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

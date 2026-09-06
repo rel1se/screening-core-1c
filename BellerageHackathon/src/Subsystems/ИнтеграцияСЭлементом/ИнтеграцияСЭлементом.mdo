@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="764f8f54-8535-455f-8097-fb3d6cd4b5f1">
+  <name>ИнтеграцияСЭлементом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Элементом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СообщенияОбмена</content>
+  <content>Catalog.КандидатыВнешние</content>
+  <content>Document.РезультатПопытки</content>
+  <content>Enum.СтатусыСообщенийОбмена</content>
+  <content>Enum.ТипыСообщенийОбмена</content>
+  <content>Enum.НаправленияОбмена</content>
+  <content>InformationRegister.ОбработанныеВходящиеСообщения</content>
+  <content>InformationRegister.ИдентификаторыИнтеграции</content>
+  <content>InformationRegister.СостояниеСинхронизацииВерсий</content>
+  <content>CommonModule.ИнтеграцияСЭлементомСервер</content>
+  <content>HTTPService.ИнтеграцияСЭлементом</content>
+  <content>Constant.ХостAPIЭлемента</content>
+  <content>Constant.ПортAPIЭлемента</content>
+  <content>Constant.ИспользоватьHTTPSЭлемента</content>
+  <content>Constant.БазовыйПутьAPIЭлемента</content>
+  <content>Constant.ТаймаутHTTPСекунды</content>
+  <content>Constant.МаксимумПопытокОбмена</content>
+  <content>Constant.БазоваяЗадержкаПовтораСекунды</content>
+  <content>Constant.РазмерПакетаОбмена</content>
+  <content>Constant.ИдентификаторУзла1С</content>
+  <content>ScheduledJob.ОтправкаСообщенийВЭлемент</content>
+  <content>ScheduledJob.ОбработкаВходящихСообщенийЭлемента</content>
+  <content>DataProcessor.НастройкиИнтеграции</content>
+</mdclass:Subsystem>

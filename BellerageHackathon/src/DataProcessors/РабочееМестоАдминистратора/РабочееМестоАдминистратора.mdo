@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="316b15f2-edc1-48c8-aec1-2a0cdc1ef3f8">
+<producedTypes><objectType typeId="57c6333c-17ca-458b-9cca-1f05161bf430" valueTypeId="1bf43162-480a-4f2b-9db6-c8955f232f4c"/><managerType typeId="fc4ca717-5e79-41e1-a988-e94b5ffdf765" valueTypeId="d79eadd6-64f5-4fe0-a76a-99c40945e946"/></producedTypes>
+<name>РабочееМестоАдминистратора</name><synonym><key>ru</key><value>Центр тестирования</value></synonym><useStandardCommands>true</useStandardCommands>
+<defaultForm>DataProcessor.РабочееМестоАдминистратора.Form.Форма</defaultForm>
+<forms uuid="53b02075-c717-45ef-830f-a1bc2ad20e57"><name>Форма</name><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:DataProcessor>

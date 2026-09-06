@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac9f369c-4792-42c7-9034-f72dbd5b64e7">
+  <producedTypes>
+    <objectType typeId="16d59b57-8552-4bc5-b698-6741805fbedf" valueTypeId="3ceb85ff-7241-483f-a9af-f7c04a7dbcf5"/>
+    <refType typeId="122b274f-5db3-4880-8bb8-ce5c6aebd4f7" valueTypeId="ed8e8922-99cc-4d19-b99d-da4e532f627d"/>
+    <selectionType typeId="633a2ee4-6f92-48c4-9f6d-9b73820e219f" valueTypeId="8429687b-7526-4452-84f0-0f43bbb56a3c"/>
+    <listType typeId="bfff46e7-8657-4e6c-8986-a1e2f419c6ab" valueTypeId="2e399fe4-6ab1-4437-99b9-2c6271acd449"/>
+    <managerType typeId="4eae4b2d-2724-45ea-81e3-21c9db13b061" valueTypeId="6f2c4a14-a906-4fd5-b4ee-f3f0370fb5ef"/>
+  </producedTypes>
+  <name>Тесты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тесты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тесты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Тесты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Тесты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="86d37418-fbed-4653-bfaf-411845d53892">
+    <name>ИдентификаторТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор теста</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="383c8bfd-33fa-4ed9-812c-f1c5e130ba13">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыТестов</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="1beaa202-7369-43d6-9515-a0b44f66af0c">
+    <name>РабочаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+  </attributes>
+  <attributes uuid="b3892874-44f6-4daf-85a4-fcf4c2770acd">
+    <name>ОпубликованнаяВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликованная версия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииТестов</types>
+    </type>
+  </attributes>
+  <attributes uuid="b8456f03-9756-4b85-9361-c5b48b57e524">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="a26e711a-57b3-474e-94a4-409800028b2b">
+    <name>ДатаПоследнегоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="d46cde1c-3a4f-4f7c-a0c1-e1c0f4204ad4">
+    <name>ДатаАрхивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата архивации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="ad4d887a-5435-4686-83af-7973185eb4d2">
+    <name>ПричинаАрхивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина архивации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="baded2d3-11aa-4667-8991-aa5c007a6087">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:Catalog>

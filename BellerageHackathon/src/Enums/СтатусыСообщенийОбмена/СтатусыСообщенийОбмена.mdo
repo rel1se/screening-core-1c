@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac98c86b-4356-4aae-9f1d-751ec08256c1">
+  <producedTypes>
+    <refType typeId="27a82f6a-5577-4e6e-bceb-13cefce9e532" valueTypeId="2c5ec270-de60-4919-b174-f065c66f8f44"/>
+    <listType typeId="f4e95b5b-3e13-468f-af75-dae5b57adb38" valueTypeId="382c43a7-61d8-4359-9ba6-e838041198f5"/>
+    <managerType typeId="495f0afd-21e8-4269-bdde-ae4808f4d6e7" valueTypeId="1802c353-a0ba-48d7-ba18-6960ed0f2ccd"/>
+  </producedTypes>
+  <name>СтатусыСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы сообщений обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6589899-5aa1-4236-88a7-59e019cbd471">
+    <name>Новое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="384069d4-b5b1-4487-b64b-6706800cd772">
+    <name>ВОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b725e1bd-df3a-4a45-a52e-0319ffddb6b9">
+    <name>ОжидаетПовтора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает повтора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fe4c73b-1afd-4378-9a08-865ebb455722">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="318f1df0-9b62-4482-b40a-a65da99748c8">
+    <name>Подтверждено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46ff44c8-3984-4a79-bd02-c1ba59d34b3b">
+    <name>Обработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="713788c8-1718-4f42-8731-be747a7c13ef">
+    <name>Карантин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карантин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4017b43e-a940-4867-93fa-c233490a9798">
+    <name>НеобрабатываемаяОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необрабатываемая ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

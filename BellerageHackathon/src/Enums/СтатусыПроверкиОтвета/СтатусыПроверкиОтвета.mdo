@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7347dd21-e7d9-4db6-8971-380c25d26e97">
+  <producedTypes>
+    <refType typeId="03cfad3a-eb1e-4671-bd1a-e47c06879070" valueTypeId="c4193057-f035-4e2b-b215-fb2c648a70cd"/>
+    <listType typeId="cab2c1bc-3763-4d13-bab6-3b575407948a" valueTypeId="d7da7412-257c-4785-b106-ffa2cfaf724f"/>
+    <managerType typeId="53e771ab-8d20-4428-ad24-b62092734d80" valueTypeId="fe905db6-87d4-4fc6-b0e0-d38bf782414a"/>
+  </producedTypes>
+  <name>СтатусыПроверкиОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проверки ответа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b34eceb-5f2f-4162-9ed7-f4805c3c22df">
+    <name>НеПроверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5acda53f-c988-4f8d-b402-7f077b572c18">
+    <name>Правильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правильный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f6f6bde-a25c-458a-8bb1-01ff691d9f40">
+    <name>Неправильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неправильный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b6d31e1-9770-4770-89ee-9bfa16c24e53">
+    <name>ОжидаетРучнойПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает ручной проверки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

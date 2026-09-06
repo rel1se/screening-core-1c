@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c90a941-11ea-4b12-9534-addf11104b7f">
+  <producedTypes>
+    <managerType typeId="5b9d7977-1ef3-45e7-aa44-df3d41332c0f" valueTypeId="b9801184-f11b-4e09-aaa3-8ecc46cd844d"/>
+    <valueManagerType typeId="960ce1fa-0e7e-40be-914c-f2e630e5b8e4" valueTypeId="a5f521d1-d2dd-4911-8a76-eee38cf842ee"/>
+    <valueKeyType typeId="0400e934-8eda-44dc-9348-08eb2311d36e" valueTypeId="8a953bb7-3828-41b8-b707-6de90031a6fd"/>
+  </producedTypes>
+  <name>ИспользоватьHTTPSЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать HTTPS Элемента</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

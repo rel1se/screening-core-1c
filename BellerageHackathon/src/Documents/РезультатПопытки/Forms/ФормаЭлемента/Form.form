@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:core="http://g5.1c.ru/v8/dt/mcore">
+<title>
+<key>ru</key>
+<value>Результат попытки и ручная проверка</value>
+</title>
+<items xsi:type="form:FormGroup">
+<name>Итоги</name>
+<id>1</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Кандидат и результат</value>
+</title>
+<items xsi:type="form:FormField">
+<name>Кандидат</name>
+<id>2</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Кандидат</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Кандидат</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>Тест</name>
+<id>3</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Тест</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Тест</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ВерсияТеста</name>
+<id>4</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Версия</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ВерсияТеста</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ДатаНачала</name>
+<id>5</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Начало</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ДатаНачала</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ДатаЗавершения</name>
+<id>6</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Завершение</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ДатаЗавершения</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ПроцентБаллов</name>
+<id>7</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Результат, %</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ПроцентБаллов</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>СтатусПроверки</name>
+<id>8</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Проверка</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.СтатусПроверки</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>РезультатПрохождения</name>
+<id>9</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Итог</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.РезультатПрохождения</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<type>UsualGroup</type>
+<extInfo xsi:type="form:UsualGroupExtInfo">
+<group>Vertical</group>
+<showTitle>true</showTitle>
+<united>true</united>
+</extInfo>
+</items>
+<items xsi:type="form:FormGroup">
+<name>РучнаяПроверка</name>
+<id>10</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Выберите ответ в таблице и укажите решение</value>
+</title>
+<items xsi:type="form:FormField">
+<name>КомментарийРецензента</name>
+<id>11</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Комментарий рецензента</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>КомментарийРецензента</segments>
+</dataPath>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>true</multiLine>
+</extInfo>
+</items>
+<type>UsualGroup</type>
+<extInfo xsi:type="form:UsualGroupExtInfo">
+<group>Vertical</group>
+<showTitle>true</showTitle>
+<united>true</united>
+</extInfo>
+</items>
+<items xsi:type="form:Table">
+<name>Ответы</name>
+<id>12</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Ответы кандидата</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<height>9</height>
+<horizontalStretch>true</horizontalStretch>
+<verticalStretch>true</verticalStretch>
+<items xsi:type="form:FormField">
+<name>ОтветыИдентификаторОтвета</name>
+<id>13</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>ID ответа</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.ИдентификаторОтвета</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыПорядокВПопытке</name>
+<id>14</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>№</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.ПорядокВПопытке</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыТекстВопросаСнимок</name>
+<id>15</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Вопрос</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.ТекстВопросаСнимок</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыТекстовыйОтвет</name>
+<id>16</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Ответ кандидата</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.ТекстовыйОтвет</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыСтатусПроверки</name>
+<id>17</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Проверка</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.СтатусПроверки</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыНабраноБаллов</name>
+<id>18</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Баллы</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.НабраноБаллов</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыМаксимальныйБалл</name>
+<id>19</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Максимум</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.МаксимальныйБалл</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ОтветыКомментарийПроверки</name>
+<id>20</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Комментарий</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.Ответы.КомментарийПроверки</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<autoCommandBar>
+<name>ОтветыКоманднаяПанель</name>
+<id>21</id>
+<autoFill>true</autoFill>
+</autoCommandBar>
+<representation>List</representation>
+<changeRowSet>false</changeRowSet>
+<changeRowOrder>false</changeRowOrder>
+</items>
+<items xsi:type="form:Table">
+<name>ВариантыОтветов</name>
+<id>22</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Показанные варианты</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ВариантыОтветов</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<height>9</height>
+<horizontalStretch>true</horizontalStretch>
+<verticalStretch>true</verticalStretch>
+<items xsi:type="form:FormField">
+<name>ВариантыОтветовИдентификаторОтвета</name>
+<id>23</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>ID ответа</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ВариантыОтветов.ИдентификаторОтвета</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ВариантыОтветовТекстВариантаСнимок</name>
+<id>24</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Вариант</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ВариантыОтветов.ТекстВариантаСнимок</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>InputField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:InputFieldExtInfo">
+<autoMarkIncomplete>true</autoMarkIncomplete>
+<chooseType>true</chooseType>
+<typeDomainEnabled>true</typeDomainEnabled>
+<textEdit>true</textEdit>
+<choiceButton>true</choiceButton>
+<dropListButton>true</dropListButton>
+<multiLine>false</multiLine>
+</extInfo>
+</items>
+<items xsi:type="form:FormField">
+<name>ВариантыОтветовВыбран</name>
+<id>25</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Выбран</value>
+</title>
+<dataPath xsi:type="form:DataPath">
+<segments>Объект.ВариантыОтветов.Выбран</segments>
+</dataPath>
+<readOnly>true</readOnly>
+<type>CheckBoxField</type>
+<editMode>Enter</editMode>
+<showInHeader>true</showInHeader>
+<headerHorizontalAlign>Left</headerHorizontalAlign>
+<extInfo xsi:type="form:CheckBoxFieldExtInfo">
+</extInfo>
+</items>
+<autoCommandBar>
+<name>ВариантыОтветовКоманднаяПанель</name>
+<id>26</id>
+<autoFill>true</autoFill>
+</autoCommandBar>
+<representation>List</representation>
+<changeRowSet>false</changeRowSet>
+<changeRowOrder>false</changeRowOrder>
+</items>
+<autoCommandBar>
+<name>ФормаКоманднаяПанель</name>
+<id>-1</id>
+<autoFill>true</autoFill>
+<items xsi:type="form:Button">
+<name>ПринятьОтвет</name>
+<id>27</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Засчитать ответ</value>
+</title>
+<type>CommandBarButton</type>
+<commandName>Form.Command.ПринятьОтвет</commandName>
+<representation>Text</representation>
+</items>
+<items xsi:type="form:Button">
+<name>ОтклонитьОтвет</name>
+<id>28</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Не засчитать</value>
+</title>
+<type>CommandBarButton</type>
+<commandName>Form.Command.ОтклонитьОтвет</commandName>
+<representation>Text</representation>
+</items>
+<items xsi:type="form:Button">
+<name>Обновить</name>
+<id>29</id>
+<visible>true</visible>
+<enabled>true</enabled>
+<userVisible>
+<common>true</common>
+</userVisible>
+<title>
+<key>ru</key>
+<value>Обновить</value>
+</title>
+<type>CommandBarButton</type>
+<commandName>Form.Command.Обновить</commandName>
+<representation>Text</representation>
+</items>
+</autoCommandBar>
+<handlers>
+<event>OnCreateAtServer</event>
+<name>ПриСозданииНаСервере</name>
+</handlers>
+<group>Vertical</group>
+<enabled>true</enabled>
+<showTitle>true</showTitle>
+<showCloseButton>true</showCloseButton>
+<autoFillCheck>true</autoFillCheck>
+<allowFormCustomize>true</allowFormCustomize>
+<autoUrl>true</autoUrl>
+<attributes>
+<name>Объект</name>
+<id>30</id>
+<valueType>
+<types>DocumentObject.РезультатПопытки</types>
+</valueType>
+<view>
+<common>true</common>
+</view>
+<edit>
+<common>true</common>
+</edit>
+<main>true</main>
+<savedData>true</savedData>
+</attributes>
+<attributes>
+<name>КомментарийРецензента</name>
+<id>31</id>
+<valueType>
+<types>String</types>
+<stringQualifiers/>
+</valueType>
+<view>
+<common>true</common>
+</view>
+<edit>
+<common>true</common>
+</edit>
+</attributes>
+<formCommands>
+<name>ПринятьОтвет</name>
+<id>32</id>
+<title>
+<key>ru</key>
+<value>Засчитать ответ</value>
+</title>
+<use>
+<common>true</common>
+</use>
+<action xsi:type="form:FormCommandHandlerContainer">
+<handler>
+<name>ПринятьОтвет</name>
+</handler>
+</action>
+<currentRowUse>DontUse</currentRowUse>
+</formCommands>
+<formCommands>
+<name>ОтклонитьОтвет</name>
+<id>33</id>
+<title>
+<key>ru</key>
+<value>Не засчитать</value>
+</title>
+<use>
+<common>true</common>
+</use>
+<action xsi:type="form:FormCommandHandlerContainer">
+<handler>
+<name>ОтклонитьОтвет</name>
+</handler>
+</action>
+<currentRowUse>DontUse</currentRowUse>
+</formCommands>
+<formCommands>
+<name>Обновить</name>
+<id>34</id>
+<title>
+<key>ru</key>
+<value>Обновить</value>
+</title>
+<use>
+<common>true</common>
+</use>
+<action xsi:type="form:FormCommandHandlerContainer">
+<handler>
+<name>Обновить</name>
+</handler>
+</action>
+<currentRowUse>DontUse</currentRowUse>
+</formCommands>
+<commandInterface>
+<navigationPanel/>
+<commandBar/>
+</commandInterface>
+</form:Form>

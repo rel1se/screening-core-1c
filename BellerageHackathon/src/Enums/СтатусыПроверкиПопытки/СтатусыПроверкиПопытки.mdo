@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2fc23d5-bc92-4998-875d-e622461fe719">
+  <producedTypes>
+    <refType typeId="71ffc5ff-3854-4604-a73e-44606c27d7c5" valueTypeId="0a678afe-c0ef-4a63-8247-9f283fab3e50"/>
+    <listType typeId="976b2fc8-fd6e-488a-a4e5-244037aa2436" valueTypeId="3215193f-11e5-471b-af23-7d75cedc8ed1"/>
+    <managerType typeId="d0971dd3-a911-45b7-9905-fd3e2db18e92" valueTypeId="7684ee8f-cb72-4e97-8e68-14e6dc819265"/>
+  </producedTypes>
+  <name>СтатусыПроверкиПопытки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проверки попытки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a511eb2b-ef69-45e8-b653-b6517bd46172">
+    <name>НеПроверена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fdcdd43-1cd5-4199-9a94-0007a52baa0f">
+    <name>ПроверенаАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверена автоматически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dd8904e-3fb4-40ba-8a1c-e3e9b5a60cc6">
+    <name>ОжидаетРучнойПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает ручной проверки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c340dcc6-d3ef-4542-b465-a419421473d8">
+    <name>ПроверенаВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверена вручную</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

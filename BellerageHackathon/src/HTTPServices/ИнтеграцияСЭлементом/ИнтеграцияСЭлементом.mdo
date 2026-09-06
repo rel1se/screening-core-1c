@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="499d8f92-054c-4109-b3f3-044091f078d2">
+  <name>ИнтеграцияСЭлементом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Элементом</value>
+  </synonym>
+  <rootURL>element</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f996eff2-e455-4998-b2d7-6ce202f84f7c">
+    <name>РезультатыПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты попыток</value>
+    </synonym>
+    <template>/attempt-results</template>
+    <methods uuid="017209d2-c0ba-4584-a24a-133a008d23e2">
+      <name>ЗагрузитьРезультат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузить результат</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗагрузитьРезультат</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

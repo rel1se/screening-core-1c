@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7178b49b-67a3-4058-9684-432400d04187">
+  <producedTypes>
+    <objectType typeId="9c35f85b-c576-49d0-927a-74e3e6b18942" valueTypeId="88ebe0e4-5c0b-4e6b-a49f-f11ff8e45b70"/>
+    <refType typeId="a1510db3-bf59-4f43-88f2-7cc83a5a6da0" valueTypeId="63e010f6-71d6-4bf9-863b-5560751025a2"/>
+    <selectionType typeId="9f22006b-5ceb-4583-ba89-029c17a2c7e4" valueTypeId="e9a413e2-44b1-4bbb-a0be-fa859ab9879e"/>
+    <listType typeId="bd642d2d-b915-4a23-a783-2bf93a20677a" valueTypeId="35d413fb-06fc-4da1-a53e-4f249ee61fa3"/>
+    <managerType typeId="b5d57e81-a207-4c76-aba3-0fd4937ddcf0" valueTypeId="9e190a83-9501-4607-a447-ac1b5e3edf8f"/>
+  </producedTypes>
+  <name>ВопросыВерсийТестов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы версий тестов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВопросыВерсийТестов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВопросыВерсийТестов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВерсииТестов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="365d6f68-f140-4c00-aff4-9d628ebd84a3">
+    <name>ИдентификаторВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор вопроса</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a3976c89-7f22-4ac4-b93b-83fe046b64c5">
+    <name>ИдентификаторВерсииВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор версии вопроса</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="a7e6c6cd-b787-4275-a8cb-9eb2ec422dac">
+    <name>ПорядокВВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок в версии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="c8dd79a9-0d1e-433b-ab73-9765a0dc5218">
+    <name>ТекстВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст вопроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="af37c92b-066d-490c-af33-990b529d34a0">
+    <name>ТипОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ответа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыОтветов</types>
+    </type>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="7b708040-2411-44bc-9822-f97f8aa998ba">
+    <name>МаксимальныйБалл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный балл</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="fb50cdd9-7c0a-4120-a761-718e02ecf8b7">
+    <name>СпособПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ проверки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПроверкиОтвета</types>
+    </type>
+  </attributes>
+  <attributes uuid="1710fe6c-a66b-4dd2-9cee-deb18c41b22b">
+    <name>ЭталонныйОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталонный ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="068f2e0f-1531-4d82-a0ec-413e70db99e0">
+    <name>УчитыватьРегистр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать регистр</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="2a02e186-348f-4022-b963-af301fc7c49f">
+    <name>ОбрезатьПробелыПоКраям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрезать пробелы по краям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="d5d85227-8289-45ee-a67e-3e1e4fa155e4">
+    <name>СхлопыватьПовторныеПробелы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схлопывать повторные пробелы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <defaultObjectForm>Catalog.ВопросыВерсийТестов.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="819919c3-c82f-4189-902f-7f865d1761aa"><name>ФормаЭлемента</name><synonym><key>ru</key><value>Редактор вопроса</value></synonym><usePurposes>PersonalComputer</usePurposes></forms>
+</mdclass:Catalog>

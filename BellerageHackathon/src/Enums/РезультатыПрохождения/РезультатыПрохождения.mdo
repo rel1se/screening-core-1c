@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="290a0b68-0b5c-4da3-932d-4d3faa515973">
+  <producedTypes>
+    <refType typeId="776ff9ff-c1bd-463d-8700-eb4156ef8e65" valueTypeId="067afa71-a588-4248-9651-d8e1371a6660"/>
+    <listType typeId="cfdc142e-47a7-4b65-89d0-4bce3bb1e9b6" valueTypeId="629ec635-2e38-4bdc-b9a0-c1ab897fa73e"/>
+    <managerType typeId="2f2755b5-0708-4c76-9fa6-d7cd8e891e23" valueTypeId="2930b384-4f10-43c5-9f70-cfe89e875239"/>
+  </producedTypes>
+  <name>РезультатыПрохождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты прохождения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="68d4815d-3f6b-4e7d-b3f0-af2b85510e72">
+    <name>НеОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7edf620-05a3-4a5d-a60b-a5b36c93dd73">
+    <name>Пройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пройден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c473e3f0-71a3-4f25-afea-61575c650aaa">
+    <name>НеПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не пройден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

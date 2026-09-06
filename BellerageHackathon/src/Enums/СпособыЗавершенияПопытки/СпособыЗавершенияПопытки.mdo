@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4e06697-2f1a-4f29-b6ec-ca764b118a52">
+  <producedTypes>
+    <refType typeId="445e15c9-264a-40f3-adeb-ccc6e6f9a189" valueTypeId="9c2a6c96-5478-4668-8ff1-64f90aee94dd"/>
+    <listType typeId="0fb7d2a5-49cb-432b-9ead-ac516f22c200" valueTypeId="84318d80-e025-4dde-a32b-c9b08963403e"/>
+    <managerType typeId="c8845d26-bcf6-4c5d-9ae4-1440974336ee" valueTypeId="9efa80f8-2cc9-43b7-ade2-78ad46966b55"/>
+  </producedTypes>
+  <name>СпособыЗавершенияПопытки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы завершения попытки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55bc9822-fb96-45da-b847-3b4d00a19ab4">
+    <name>Кандидатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидатом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce6317e6-ec63-4097-b50a-ffe22d3bec08">
+    <name>ПоИстеченииВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>По истечении времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a38628b0-e38d-4dbc-b42d-aee0b0de2c58">
+    <name>Системой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

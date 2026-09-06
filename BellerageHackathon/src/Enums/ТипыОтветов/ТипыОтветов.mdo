@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb889cf2-4fc5-4db2-9636-af985d0472ba">
+  <producedTypes>
+    <refType typeId="a6d634d3-af7e-40e2-aed2-b408c8c136f8" valueTypeId="29a511ed-1bfe-4472-8414-1f1977779780"/>
+    <listType typeId="22bb291e-90d4-4ec2-a557-846afaf974d9" valueTypeId="7b1b4410-cbad-4fad-aa63-02228c65b546"/>
+    <managerType typeId="a4ffb25c-d4ce-4bf2-ba73-f177e525c2d5" valueTypeId="0ef067db-d2f0-47e4-a600-44f9e1d704c9"/>
+  </producedTypes>
+  <name>ТипыОтветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ответов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96124540-9d48-451f-8fd4-1fb794224dfa">
+    <name>ОдинПравильныйОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Один правильный ответ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="277a3039-3a59-4c03-b189-f3db423e3609">
+    <name>НесколькоПравильныхОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несколько правильных ответов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c03ec0af-91b1-4caa-bc9c-8cf81885bbcd">
+    <name>ПолеВвода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле ввода</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
