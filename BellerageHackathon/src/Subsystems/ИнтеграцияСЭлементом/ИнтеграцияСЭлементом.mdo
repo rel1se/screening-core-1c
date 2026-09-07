@@ -22,6 +22,9 @@
   <content>Constant.ПортAPIЭлемента</content>
   <content>Constant.ИспользоватьHTTPSЭлемента</content>
   <content>Constant.БазовыйПутьAPIЭлемента</content>
+  <content>Constant.ПутьПолученияТокенаЭлемента</content>
+  <content>Constant.ИдентификаторКлиентаЭлемента</content>
+  <content>Constant.СекретКлиентаЭлемента</content>
   <content>Constant.ТаймаутHTTPСекунды</content>
   <content>Constant.МаксимумПопытокОбмена</content>
   <content>Constant.БазоваяЗадержкаПовтораСекунды</content>

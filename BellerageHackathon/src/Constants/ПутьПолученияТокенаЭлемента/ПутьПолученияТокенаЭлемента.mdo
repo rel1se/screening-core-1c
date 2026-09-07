@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a232a2a0-d11d-4d7e-a10d-8d350ecb82dc">
+  <producedTypes>
+    <managerType typeId="a8ee5901-7a7e-440c-96b9-2fd889a8fe45" valueTypeId="6b547fee-ff54-4301-9024-92ff1720a08e"/>
+    <valueManagerType typeId="376d623d-713c-429c-adf6-8dc0ea562f54" valueTypeId="a72978c1-95f3-4a5c-b783-b3bee877c5be"/>
+    <valueKeyType typeId="4241cd8d-0e65-4ab4-b431-104ce1d01dc3" valueTypeId="5ca39b94-0213-447b-b828-f110be576f17"/>
+  </producedTypes>
+  <name>ПутьПолученияТокенаЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь получения токена Элемента</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

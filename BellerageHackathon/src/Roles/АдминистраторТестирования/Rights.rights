@@ -580,6 +580,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ПутьПолученияТокенаЭлемента</name>
+		<right><name>Read</name><value>true</value></right>
+		<right><name>Update</name><value>true</value></right>
+		<right><name>View</name><value>true</value></right>
+	</object>
+	<object>
+		<name>Constant.ИдентификаторКлиентаЭлемента</name>
+		<right><name>Read</name><value>true</value></right>
+		<right><name>Update</name><value>true</value></right>
+		<right><name>View</name><value>true</value></right>
+	</object>
+	<object>
+		<name>Constant.СекретКлиентаЭлемента</name>
+		<right><name>Read</name><value>true</value></right>
+		<right><name>Update</name><value>true</value></right>
+		<right><name>View</name><value>true</value></right>
+	</object>
+	<object>
 		<name>DataProcessor.НастройкиИнтеграции</name>
 		<right>
 			<name>Use</name>

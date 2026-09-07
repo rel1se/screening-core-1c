@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43a33ab3-6052-44d2-b64f-e79c99e8da83">
+  <producedTypes>
+    <managerType typeId="35f183f2-6cad-485f-8aac-f80b2eeda615" valueTypeId="fc29bb70-c9ea-4038-a1c6-f15ad10ad021"/>
+    <valueManagerType typeId="3eb5e54c-bacf-48ae-903b-198d6eaabb19" valueTypeId="fe2b889e-395b-4607-9814-3be724d8e2dd"/>
+    <valueKeyType typeId="dc9ab0db-01f9-4992-ae3b-5eb8c866c050" valueTypeId="d88434e1-8e5c-4457-84c9-4dffd511f454"/>
+  </producedTypes>
+  <name>СекретКлиентаЭлемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Client-Secret приложения Элемента</value>
+  </synonym>
+  <comment>Секрет отображается в форме как пароль и доступен только администратору тестирования и оператору интеграции. Для production рекомендуется внешнее защищенное хранилище секретов.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <extendedEdit>true</extendedEdit>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
