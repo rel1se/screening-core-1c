@@ -5,202 +5,348 @@
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
 		<name>Document.ПубликацияТеста</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.СообщенияОбмена</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ВопросыВерсийТестов</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
-		<right><name>InteractiveInsert</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ВерсииТестов</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
-		<right><name>InteractiveInsert</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Тесты</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
-		<right><name>InteractiveInsert</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.СостояниеСинхронизацииВерсий</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ВариантыОтветовВерсий</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
-		<right><name>InteractiveInsert</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Enum.СтатусыТестов</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Configuration.Конфигурация</name>
-		<right><name>ThinClient</name><value>true</value></right>
-		<right><name>WebClient</name><value>true</value></right>
-		<right><name>ThickClientManagedApplication</name><value>true</value></right>
-		<right><name>Output</name><value>true</value></right>
-		<right><name>SaveUserData</name><value>true</value></right>
+		<name>Configuration.BellerageHackathon</name>
+		<right>
+			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThickClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Output</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.КандидатыВнешние</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.РезультатПопытки</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-		<right><name>Insert</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-		<right><name>Edit</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ОбработанныеВходящиеСообщения</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ИдентификаторыИнтеграции</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>Update</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СтатусыВерсийТестов</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.ТипыОтветов</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СпособыПроверкиОтвета</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СтатусыПроверкиОтвета</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.РезультатыПрохождения</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СпособыЗавершенияПопытки</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СтатусыСообщенийОбмена</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.ТипыСообщенийОбмена</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.НаправленияОбмена</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
-	</object>
-	<object>
-		<name>Enum.СтатусыПроверкиПопытки</name>
-		<right><name>Read</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ХостAPIЭлемента</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ПортAPIЭлемента</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ИспользоватьHTTPSЭлемента</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.БазовыйПутьAPIЭлемента</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ТаймаутHTTPСекунды</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.МаксимумПопытокОбмена</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.БазоваяЗадержкаПовтораСекунды</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.РазмерПакетаОбмена</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ИдентификаторУзла1С</name>
-		<right><name>Read</name><value>true</value></right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Subsystem.УправлениеТестами</name>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Subsystem.РезультатыТестирования</name>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Subsystem.ИнтеграцияСЭлементом</name>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>DataProcessor.РабочееМестоАдминистратора</name>
-		<right><name>Use</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Report.РезультатыТестирования</name>
-		<right><name>Use</name><value>true</value></right>
-		<right><name>View</name><value>true</value></right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 </Rights>

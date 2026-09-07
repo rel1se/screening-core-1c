@@ -11,6 +11,14 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.РезультатыТестирования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1095cfc3-36d3-4239-80a2-5a6a98bb9047">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты тестирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
   <templates uuid="e019207a-f0d2-4e9c-a078-47b9e8e26e5b">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <templateType>DataCompositionSchema</templateType>
